@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* 使容器占满整个视口高度 */
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.list{
+    width: 30%;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.list h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.list ul {
+    width: 10%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    /* text-align: right; */
+    margin: 10px 0;
+}
+
+.list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list .contact {
+    /* text-align: right; */
+    margin-top: 20px;
+}
+
+.list .contact a {
+    color: #ff69b4;
+}
+
+.background-image {
+    width: 100%;
+    background-image: url('./bg1.jpg'); /* 替换为你的图片URL */
+    background-size: cover; /* 使背景图像覆盖整个容器 */
+    background-position: center; /* 居中显示 */
+    border-radius: 10px;
+}
