@@ -101,12 +101,12 @@ ignore:
 theme:  fluid
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment   repo: https://github.com/SongVei/SongVei.github.io.git  # 替换为你的仓库地址
+## Docs: https://hexo.io/docs/one-command-deployment
 
 deploy:
   type: git
   repo: git@github.com:SongVei/SongVei.github.io.git  # 替换为你的仓库地址
-  branch: master  # 分支名（默认可能是 master 或 main，根据仓库设置）
+  branch: main  # 分支名（默认可能是 master 或 main，根据仓库设置）
 
 
 # hexo-hide-posts
